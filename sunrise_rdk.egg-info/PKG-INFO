@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sunrise-rdk
+Version: 0.1.0
+Summary: Sunrise Robotics Development Kit - I2C angle readout and data collection modules
+Home-page: UNKNOWN
+Author: Yujie Cui
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+
+UNKNOWN
+
