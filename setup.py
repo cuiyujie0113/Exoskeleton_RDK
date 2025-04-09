@@ -15,6 +15,7 @@ setup(
         'console_scripts': [
             'data_collector = sunrise_rdk.data_collection.data_collector:main',
             'angle_publisher = sunrise_rdk.angle_io.angle_publisher:main',
+            'data_collector_d435i_ros = sunrise_rdk.data_collection.data_collector_D435i_ROS:main',
         ],
     },
     author='Yujie Cui',

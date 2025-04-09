@@ -174,3 +174,9 @@ cython_debug/
 .pypirc
 
 *.egg-info/
+
+*.h5
+
+__pycache__/
+*.pyc
+*$py.class
