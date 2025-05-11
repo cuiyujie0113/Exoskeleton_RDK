@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Header, Float32MultiArray
-from sunrise_rdk.angle_io.MT6701_I2C import MT6701Direct, MT6701WithMux
+from angle_io.MT6701_I2C import MT6701Direct, MT6701WithMux
 import numpy as np
 import threading
 import time
@@ -10,7 +10,7 @@ class Exo_angles(Node):
     def __init__(self):
         super().__init__('exo_angles')
         self.mt6701_with_mux = MT6701WithMux(bus_num=0)
-        self.angle_reorder_indices = [7, 6, 5, 2, 4, 3, 0, 1]
+        self.angle_reorder_indices = [7, 6, 5, 4, 3, 2, 1, 0]
         self.reverse_angles = [-1,-1,-1,-1,-1,-1,1,1]
 
         self.pub_angles = np.zeros(8)
